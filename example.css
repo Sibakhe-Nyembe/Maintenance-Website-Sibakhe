@@ -1,0 +1,96 @@
+body {
+    background: center; 
+    background-color:bisque;
+}
+
+header {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h4{
+    font-size: 30px;
+}
+
+nav{
+    margin: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color:blue;
+}
+
+.BIO {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.BIO:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid darkcyan;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+button{
+    border: 2px solid darkcyan;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}    
+
+h4 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 0%;
+    background-color:darkcyan;
+    border-bottom: solid 10px black;
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+    padding: 0%;
+}
+
+footer {
+    background-color:aqua;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
