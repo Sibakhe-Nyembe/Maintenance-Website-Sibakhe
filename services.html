@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Services | SANDILE & CO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="sidebar">
+    <br>    
+    <h3>Quick Links</h3>
+    <a href="index.html">HOME</a>
+    <a href="services.html">SERVICES</a>
+    <a href="tryout.html">CONTACT</a>
+    <hr>
+    <h1><a href="mailto: Example@gmail.com" class="btn">Email: example@gmail.com</a></h1>
+    <h1><a href="tel: +268 79458472" class="btn">Phone: +268 7945 8472</a></h1>
+    </div>
+
+    <!-- Toggle Button -->
+    <button id="toggleSidebar">☰ Menu</button>
+
+    <header>
+        <h1>Our Services</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tryout.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Maintenance Services</h2>
+        <ul>
+            <li>Furniture repair and upkeep</li>
+            <li>Groundkeeping and landscaping</li>
+            <li>Water system maintenance</li>
+            <li>Household repairs</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2>Technical & IT Support</h2>
+        <ul>
+            <li>Basic troubleshooting</li>
+            <li>Hardware setup and maintenance</li>
+            <li>Software installation support</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2>Community Services</h2>
+        <ul>
+            <li>Voluntary outreach programs</li>
+            <li>Retail of maintenance tools</li>
+            <li>Training sessions for volunteers</li>
+        </ul>
+    </section>
+    
+    <section class="content">
+    <h2>Extra Services</h2>    
+    <div class="services">
+    <div class="card">Plumbing</div>
+    <div class="card">Electrical</div>
+    <div class="card">Cleaning</div>
+    </section>
+
+    <script>
+    const sidebar = document.getElementById('sidebar');
+    const toggleBtn = document.getElementById('toggleSidebar');
+
+    toggleBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+    });
+    </script>
+
+    <footer>
+        <p>Need a service? Reach out today: example@gmail.com</p>
+    </footer>
+</body>
+</html>

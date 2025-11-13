@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Contact & Volunteer | SANDILE & CO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="sidebar">
+    <br>    
+    <h3>Quick Links</h3>
+    <a href="index.html">HOME</a>
+    <a href="services.html">SERVICES</a>
+    <a href="tryout.html">CONTACT</a>
+    <hr>
+    <h1><a href="mailto: Example@gmail.com" class="btn">Email: example@gmail.com</a></h1>
+    <h1><a href="tel: +268 79458472" class="btn">Phone: +268 7945 8472</a></h1>
+    </div>
+
+    <!-- Toggle Button -->
+    <button id="toggleSidebar">☰ Menu</button>
+
+    <header>
+        <h1>Contact & Volunteer</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Join Our Team</h2>
+        <p>We welcome volunteers to support our maintenance efforts and gain hands-on experience.</p>
+        <ul>
+            <li>Assist with property upkeep</li>
+            <li>Support technical and IT services</li>
+            <li>Help with community outreach</li>
+        </ul>
+        <p>Volunteering with us means learning, growing, and giving back.</p>
+    </section>
+
+    <section class="content">
+        <h2>Contact Representative</h2>
+        <p>Ready to volunteer or ask questions? Reach out to our facility representative:</p>
+        <p><a href="mailto:example@gmail.com" class="btn">Email Us</a></p>
+        <p><a href="tel:+26879458472" class="btn">Call: 79458472</a></p>
+    </section>
+
+    <script>
+    const sidebar = document.getElementById('sidebar');
+    const toggleBtn = document.getElementById('toggleSidebar');
+
+    toggleBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+    });
+    </script>
+
+    <footer>
+        <p>SANDILE & CO Maintenance | example@gmail.com | 79458472 / 78162056</p>
+    </footer>
+</body>
+</html>

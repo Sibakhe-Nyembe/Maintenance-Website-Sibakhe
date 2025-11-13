@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>SANDILE & CO Maintenance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h4>SANDILE & CO. MAINTENANCE COMPANY</h4>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tryout.html">Contact</a>
+            <a href="services.html">Services</a>
+        </nav>
+    </header>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+    <br>    
+    <h3>Quick Links</h3>
+    <a href="index.html">HOME</a>
+    <a href="services.html">SERVICES</a>
+    <a href="tryout.html">CONTACT</a>
+    <hr>
+    <h1><a href="mailto: Example@gmail.com" class="btn">Email: example@gmail.com</a></h1>
+    <h2><a href="tel: +268 79458472" class="btn">Phone: +268 7945 8472</a></h2>
+    </div>
+
+    <!-- Toggle Button -->
+    <button id="toggleSidebar">☰ Menu</button>
+
+    <section class="content">
+        <h2>Homepage</h2>
+        <p>Is your grass growing tall and taller? Perhaps there are stubborn tree stems.<br>
+        Maybe your property has maintenance issues and you don't know where to go.<br>
+        No worries, we got you.</p>
+    </section>
+
+    <section class="content">
+        <h2>Did You Know?</h2>
+        <p>We are your companions in maintaining your property and other areas in need of maintenance:</p>
+        <ul>
+            <li>Furniture maintenance</li>
+            <li>Property helpers</li>
+            <li>House maintenance and more</li>
+        </ul>
+        <p>We also offer generous services to ensure a safe working environment:</p>
+        <ul>
+            <li>Water maintenance service</li>
+            <li>Groundkeeping services</li>
+            <li>Technical and IT support</li>
+            <li>More services awaiting you</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2>Experiences</h2>
+        <p>Our team is experienced in:</p>
+        <ul>
+            <li>Technical and IT support issues</li>
+            <li>Property maintenance</li>
+            <li>Retail services for maintenance equipment and hardware</li>
+            <li>Serving the community through voluntary services</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2>Conclusion</h2>
+        <p>We might be small, but we are capable of doing more for you. Our team is ready when you are.</p>
+        <p>We acknowledge our limitations:</p>
+        <ul>
+            <li>We specialize in limited areas and may not cover all maintenance needs.</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2>Facility of Volunteers</h2>
+        <p>We welcome volunteers to serve under our department and gain experience in return.</p>
+        <p><a href="tryout.html" class="btn">Contact Representative</a></p>
+    </section>
+
+    <script>
+    const sidebar = document.getElementById('sidebar');
+    const toggleBtn = document.getElementById('toggleSidebar');
+
+    toggleBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+    });
+    </script>
+
+    <footer>
+        <p>Email: example@gmail.com</p>
+        <p>Phone: 79458472 / 78162056</p>
+        <p>Contact us today!</p>
+    </footer>
+</body>
+</html>
